@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "node-zookeeper-client": "^0.2.2",
+    "uuid": "^3.0.1"
+  },
+  "name": "zk-cluster",
+  "version": "1.0.0",
+  "description": "Registering as an instance and monitoring cluster instances in zookeeper",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "zookeeper"
+  ],
+  "author": "Asaf Haddad <hello@ous.im> (http://www.ous.im/)",
+  "license": "ISC"
+}
