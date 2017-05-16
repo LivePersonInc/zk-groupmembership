@@ -12,8 +12,20 @@
     "test": "mocha"
   },
   "keywords": [
-    "zookeeper"
+    "zookeeper",
+    "consistent",
+    "hashing",
+    "node",
+    "nodejs",
+    "sharding",
+    "cluster",
+    "task",
+    "shard"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LivePersonInc/zk-cluster.git"
+  },
   "author": "Asaf Haddad <hello@ous.im> (http://www.ous.im/)",
-  "license": "ISC"
+  "license": "MIT"
 }
