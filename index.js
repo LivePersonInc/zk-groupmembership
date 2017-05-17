@@ -1,7 +1,7 @@
 'use strict';
 
-const ZKCluster = require('./lib/ZKCluster.js');
+const ZKGroupMembership = require('./lib/ZKGroupMembership.js');
 
 module.exports = {
-    ZKCluster
+    ZKGroupMembership
 };

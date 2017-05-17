@@ -1,4 +1,4 @@
 examples/
-zk-cluster.iml
+*.iml
 yarn.lock
 logs
