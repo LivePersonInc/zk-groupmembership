@@ -6,7 +6,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/zk-groupmembership.svg)](https://www.npmjs.com/package/zk-groupmembership)
 [![license](https://img.shields.io/npm/l/zk-groupmembership.svg)](LICENSE)
 
-This package allows you to initialize a member group in zookeeper, monitor its members, and register a number of members.  
+This package allows you to initialize a member group in zookeeper, monitor its members, and register one or more members.  
 This is useful for instance to manage the nodes when implementing consistent hashing.
 
 ## Usage
@@ -27,7 +27,7 @@ const group
 });
 
 group.setup()
-    .then(() => group.registerMember()) //Register a member with a generated id and no payload
+    .then(() => group.registerMember()) //Register a member with a generated id and no associated data
     .then((member) => {
         console.log("Registered Instance %s", member.id);
         taskSharding.selfNode = member.id;
