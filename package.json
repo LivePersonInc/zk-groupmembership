@@ -27,5 +27,9 @@
     "url": "https://github.com/LivePersonInc/zk-cluster.git"
   },
   "author": "Asaf Haddad <hello@ous.im> (http://www.ous.im/)",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.9.2",
+    "npm": ">=3.10.8"
+  }
 }
