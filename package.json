@@ -19,7 +19,12 @@
     "sharding",
     "cluster",
     "task",
-    "shard"
+    "shard",
+    "group",
+    "membership",
+    "workgroup",
+    "groupmember",
+    "membership"
   ],
   "repository": {
     "type": "git",
