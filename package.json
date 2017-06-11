@@ -6,9 +6,13 @@
   "version": "2.0.1",
   "description": "This package uses zookeeper to manage a group of members, allowing to register new group members and monitoring when members are added or removed.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.4.2"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint ./lib"
   },
   "keywords": [
     "zookeeper",
